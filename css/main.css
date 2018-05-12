@@ -482,6 +482,7 @@ td:last-child {
 	z-index: 800;
 	height: 100%;
 	width: 100%;
+	display: none
 }
 
 .no-js #preloader,
@@ -497,6 +498,7 @@ td:last-child {
 	height: 60px;
 	margin: -30px 0 0 -30px;
 	padding: 0;
+	display: none
 }
 
 #loader:before {
@@ -511,6 +513,7 @@ td:last-child {
 	border-radius: 50%;
 	width: 60px;
 	height: 60px;
+	display: none
 }
 
 @-webkit-keyframes load {
